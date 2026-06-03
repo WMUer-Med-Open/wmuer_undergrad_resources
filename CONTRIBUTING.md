@@ -4,11 +4,10 @@
 
 ## What We Accept
 
-- 原创 Markdown 笔记、复习路径、疾病学习条目和实习经验。
-- 原创或明确授权的 PDF、Word 资料，并配套 Markdown 索引说明。
-- 公开授权资源的索引、简介和学习建议。
-- 真题回忆、题型说明、考点整理和复习经验。
-- 教改班相关学习路径、课程经验和资源索引。
+- 各年级的原创 Markdown 总结、课程复习、疾病学习总结和学习框架。
+- 各年级的学习经验、考试经验、教改班经验、实习经验。
+- 原创或明确授权的 PDF、Word 资料，并建议配套 Markdown 索引说明。
+- 公开授权资源的索引、简介和使用建议。
 
 ## What We Do Not Accept
 
@@ -27,44 +26,46 @@
 - PDF/Word 文件必须配套一个 Markdown 索引条目，说明来源、授权、适用阶段和使用建议。
 - 文件名使用小写英文、数字和连字符，例如 `heart-failure.md`。
 - 中文内容为主；关键页面建议提供英文摘要。
-- 每篇资料顶部使用统一元信息：
+- 所有资料放到对应年级目录：
+
+```text
+years/<year>/summaries/
+years/<year>/experience-posts/
+years/<year>/documents/
+```
+
+- Markdown 资料顶部建议使用统一元信息：
 
 ```md
 ---
-title: 心力衰竭
-stage: junior-spring
-category: disease-based-learning
+title: 资料标题
+year: junior
+category: summaries
 author: your-github-id
 license: CC BY 4.0
 last_updated: 2026-06-04
 ---
 ```
 
-## Disease-Based Notes
+## Summaries
 
-疾病学习条目建议使用 `templates/disease-note-template.md`，并尽量覆盖：
+总结建议使用 `templates/summary-template.md`。医学主题建议尽量体现疾病学习模式，把以下内容联系起来：
 
-- 疾病概览
-- 相关基础医学知识
-- 临床表现
-- 诊断思路
-- 治疗原则
-- 常见考点
-- 推荐资料
-- 更新记录
+- 基础医学机制。
+- 病理生理。
+- 临床表现。
+- 诊断思路。
+- 治疗原则。
+- 考试重点。
+- 学习或实习经验。
 
-## Exam Materials
+## Experience Posts
 
-`exams/past-exam-guidance/` 只接收：
-
-- 真题回忆
-- 复习经验
-- 题型说明
-- 考点整理
+经验贴建议使用 `templates/experience-post-template.md`。可以写学习经验、考试经验、教改班经验或实习经验，但必须说明适用年级、适用课程或科室，以及经验的局限。
 
 不要上传原始试卷、扫描件、截图、内部题库或未经授权的课程材料。
 
-## PDF and Word Materials
+## Documents
 
 PDF 和 Word 文件只作为补充资料，不替代 Markdown 索引。
 
@@ -72,7 +73,7 @@ PDF 和 Word 文件只作为补充资料，不替代 Markdown 索引。
 
 - 文件必须是原创、明确授权或可公开再分发。
 - 文件名使用小写英文、数字和连字符。
-- 同目录或 `files/` 中必须有 Markdown 索引说明。
+- 建议同目录配套 Markdown 索引说明。
 - 不上传教材扫描件、内部课件、未授权题库、原始试卷扫描件或含隐私的文档。
 - 文件应尽量保持小体积；过大的文件建议另行托管并在 Markdown 中索引。
 

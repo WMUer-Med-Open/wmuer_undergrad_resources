@@ -1,9 +1,9 @@
 # Templates
 
-这里存放 Markdown 投稿模板。
+这里存放投稿模板。
 
-- `disease-note-template.md`：用于疾病或系统相关条目。
-- `resource-entry-template.md`：用于公开资源索引、学习路径和经验资料条目。
+- `summary-template.md`：用于课程总结、系统总结或疾病学习总结。
+- `experience-post-template.md`：用于学习经验、考试经验、实习经验。
+- `document-entry-template.md`：用于 PDF/Word/Markdown 文档说明。
 
-投稿时可以复制模板内容到对应目录，并将文件名改为小写英文、数字和连字符。
-
+投稿时可以复制模板内容到对应年级目录，并将文件名改为小写英文、数字和连字符。
