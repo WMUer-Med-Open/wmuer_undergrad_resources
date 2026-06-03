@@ -1,0 +1,16 @@
+# Keep unsupported binary bundles out of the repository.
+*.ppt
+*.pptx
+*.zip
+*.rar
+*.7z
+*.mp3
+*.mp4
+*.mov
+*.avi
+
+# Local system and editor files.
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
