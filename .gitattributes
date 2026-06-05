@@ -1,0 +1,11 @@
+# Normalize text files.
+*.md text eol=lf
+*.py text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.txt text eol=lf
+
+# Treat document formats as binary.
+*.pdf binary
+*.doc binary
+*.docx binary

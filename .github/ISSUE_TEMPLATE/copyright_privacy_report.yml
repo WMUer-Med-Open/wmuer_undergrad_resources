@@ -1,0 +1,39 @@
+name: 版权或隐私问题报告
+description: 报告疑似版权、授权、隐私或医学伦理问题。
+title: "[Compliance]: "
+labels:
+  - compliance
+body:
+  - type: input
+    id: location
+    attributes:
+      label: 问题位置
+      description: 请提供文件路径、链接或 PR/Issue 编号。
+    validations:
+      required: true
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: 问题类型
+      options:
+        - 版权或授权不清
+        - 隐私或个人信息
+        - 内部资料或未授权题库
+        - 医学表述可能误导
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: 具体说明
+      description: 请说明为什么认为这里存在问题。不要在此处粘贴更多隐私信息。
+    validations:
+      required: true
+  - type: checkboxes
+    id: sensitive
+    attributes:
+      label: 处理提醒
+      options:
+        - label: 如果涉及隐私，我已避免在 Issue 中继续扩散敏感内容。
+          required: true

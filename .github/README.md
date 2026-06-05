@@ -2,5 +2,9 @@
 
 这里存放 GitHub 协作配置。
 
-- `pull_request_template.md`：用于提醒贡献者说明来源、授权、适用阶段、原创性和隐私检查结果。
-
+| 文件 | 用途 |
+|---|---|
+| [pull_request_template.md](pull_request_template.md) | PR 投稿检查清单。 |
+| [ISSUE_TEMPLATE/resource_submission.yml](ISSUE_TEMPLATE/resource_submission.yml) | 资料投稿建议模板。 |
+| [ISSUE_TEMPLATE/copyright_privacy_report.yml](ISSUE_TEMPLATE/copyright_privacy_report.yml) | 版权或隐私问题报告模板。 |
+| [workflows/repository-checks.yml](workflows/repository-checks.yml) | 自动检查目录、文件类型、命名和文档配套说明。 |

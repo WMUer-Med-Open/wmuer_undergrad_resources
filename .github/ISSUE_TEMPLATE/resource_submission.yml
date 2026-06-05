@@ -1,0 +1,53 @@
+name: 资料投稿建议
+description: 建议新增一份总结、经验贴或文档索引。
+title: "[Resource]: "
+labels:
+  - resource
+body:
+  - type: dropdown
+    id: year
+    attributes:
+      label: 适用年级
+      options:
+        - 大一 / freshman
+        - 大二 / sophomore
+        - 大三 / junior
+        - 大四 / senior
+        - 大五或实习 / fifth-year-internship
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: 内容类别
+      options:
+        - 总结 / summaries
+        - 经验贴 / experience-posts
+        - 文档 / documents
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: 资料说明
+      description: 说明资料主题、适用课程或科室、推荐使用方式。
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: 来源与授权
+      description: 例如原创、已授权、公开可再分发、仅索引。
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 合规确认
+      options:
+        - label: 不包含盗版教材、教材扫描件、内部课件、未授权题库或原始试卷扫描件。
+          required: true
+        - label: 不包含患者、教师、同学、医护人员或科室隐私信息。
+          required: true
+        - label: 临床相关内容不会被当作具体医疗建议。
+          required: true

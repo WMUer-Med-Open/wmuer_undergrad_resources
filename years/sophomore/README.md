@@ -1,16 +1,22 @@
-# Sophomore
+# Sophomore / 大二
 
-大二资料入口。
+大二资料主要服务于基础医学核心课程阶段：把分散知识点整理成机制理解，并为后续临床系统学习打基础。
 
-建议收录：
+## 分类入口
 
-- 基础医学核心课程总结。
-- 从基础医学过渡到疾病学习的经验。
-- 可公开分享的复习文档、课程整理和资源索引。
+| 分类 | 入口 | 适合内容 |
+|---|---|---|
+| 总结 | [summaries](summaries/) | 生理、病理、生化、药理等基础医学总结。 |
+| 经验贴 | [experience-posts](experience-posts/) | 基础医学课程学习、考试复习、实验课程经验。 |
+| 文档 | [documents](documents/) | 原创或授权的复习文档、课程整理、公开资源索引。 |
 
-## Categories
+## 推荐主题
 
-- [summaries](summaries/)：总结。
-- [experience-posts](experience-posts/)：经验贴。
-- [documents](documents/)：文档。
+- 基础医学课程复习框架。
+- 机制类知识点的联想和对比。
+- 病理生理、药理机制与临床问题的衔接。
+- 大量课程并行时的时间安排经验。
 
+## 投稿提示
+
+新增资料请优先使用 [templates](../../templates/) 中的模板。PDF/Word 必须配套同名 Markdown 说明。

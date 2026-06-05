@@ -8,9 +8,14 @@
 *.mp4
 *.mov
 *.avi
+*.mkv
+*.wmv
+*.tmp
 
 # Local system and editor files.
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
+~$*.doc
+~$*.docx
